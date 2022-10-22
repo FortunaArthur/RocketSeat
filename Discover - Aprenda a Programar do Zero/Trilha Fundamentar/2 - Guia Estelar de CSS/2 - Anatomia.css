@@ -1,0 +1,24 @@
+h1 {
+    color: brown;
+    font-size: 60px;
+    background: gray;
+}
+
+/*
+h1 => Seletor
+
+{
+    color: brown;
+    font-size: 60px;  ======>> TUDO ISSO É DECLARAÇÃO
+    background: gray;
+}
+
+
+color: 
+font-size:  ==========>>>>> SÃO AS PROPRIEDADES
+background:
+
+brown;
+60px; =============>>>> são os valores das propriedades
+gray;
+*/

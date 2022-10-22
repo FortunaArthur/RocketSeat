@@ -1,0 +1,13 @@
+/*
+Tamanho (largura x altura): width e height, respectivamente
+Conteúdo: o content
+Bordas: o border
+Preenchimento interno: o padding
+Espaços fora da caixa: a margin
+*/
+
+h1 {
+    border: 1px solid red;
+    margin: 300px;
+    padding: 60px;;
+  }

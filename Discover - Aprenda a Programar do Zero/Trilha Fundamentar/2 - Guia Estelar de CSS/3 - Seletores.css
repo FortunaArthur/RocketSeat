@@ -1,0 +1,27 @@
+/*
+Seletor conecta um elemento html ao css
+*/
+
+/*
+Global ==> *
+Elemente or Type Select ==> h1, h2, h3, p, div
+ID Selector ==> #box, #container
+Class Selector ==> .red, .m-5
+*/
+
+/* ID selector */
+#container {
+	width: 200px;
+}
+
+/* Class selector */
+.m-40 {
+	margin: 40px;
+}
+
+/* Element/Type selector + Agrupamento de seletores */
+h1, h2 {
+	color: blue;
+	font-size: 60px;
+	background: gray;
+}
