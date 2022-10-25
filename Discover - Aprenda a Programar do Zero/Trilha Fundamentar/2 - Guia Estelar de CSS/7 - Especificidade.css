@@ -1,0 +1,35 @@
+/*
+2 - Especifidade, cada  seletor e origem de estilo possuem valores a considerar
+
+elemneto universal tem valor 0
+elemento de tipo tem valor 1
+classe valor 10
+id valor 100
+inline valor 1000
+vai dor maior para o menor, quem for omais forte vai 1°
+
+*/
+
+* {
+    color: greenyellow;
+}
+
+.title {
+    color: red;
+}
+
+h1 {
+    color: blue;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+#my {
+    color: aqua;
+}
+
+h1.title#my {
+    color: blue;
+}

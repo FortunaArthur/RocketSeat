@@ -1,0 +1,29 @@
+* {
+    color: greenyellow;
+}
+
+.title {
+    color: red;
+}
+
+h1 {
+    color: blue;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+#my {
+    color: aqua;
+}
+
+h1.title#my {
+    color: blue;
+}
+
+/*Essa regra vai quebrar o fluxo e dar importancia para onde vc está apontando, ela vai passar por cima e focar na regra*/
+
+h1 {
+    color: rgb(255, 0, 212) !important;
+}

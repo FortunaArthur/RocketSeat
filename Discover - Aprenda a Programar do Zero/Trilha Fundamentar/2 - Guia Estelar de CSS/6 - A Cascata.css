@@ -1,0 +1,13 @@
+/*É uma cascata, ele vai caindo de cima pra baixo, e vai pegando pelo o que estiver em baixo*/
+
+h1 {
+    color: yellow;
+}
+
+h1 {
+    color: blue;
+}
+
+h1 {
+    font-size: 20px;
+}
