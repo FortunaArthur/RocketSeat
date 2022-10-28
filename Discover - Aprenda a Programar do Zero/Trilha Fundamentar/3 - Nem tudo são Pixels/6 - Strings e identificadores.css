@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.box {
+    height: calc(100% - 40px);
+    width: 100%;
+    background-image: url(http://source.unsplash.com/random);
+    background-repeat: no-repeat;
+    background-position: center;/*top, right, bottom, left e center*/
+}
+
+/*
+Strings: texto envolto em aspas*/
+
+.box::after {
+	content: "Isso é uma string";
+    content: "Aki vai entrar uma mensagem";
+    color: red;
+}
+
+/*Identificadores: podemos ter nomes de cores como red, black, gold
+*/

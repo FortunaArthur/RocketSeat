@@ -1,0 +1,7 @@
+.box {
+    height: 300px;
+    width: 400px;
+    background-image: url(http://source.unsplash.com/random);
+    background-repeat: no-repeat;
+    background-position: center;/*top, right, bottom, left e center*/
+}
