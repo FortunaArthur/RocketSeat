@@ -1,0 +1,21 @@
+/*Block respeita a largura e altura*/
+div {
+    height: 100px;
+    width: 10px;
+    border: 1px solid blue;
+/*Inverter o comportamento: block pra inline*/
+    display: inline;
+/*margin vai jogar p baixo*/
+    margin: 200px;
+}
+
+/*Inline não respeita a largura e altura*/
+strong {
+    width: 10px;
+    height: 100px;
+    border: 1px solid red;
+/*Inverter o comportamento: inline pra block*/
+    display: block;
+/*margin vai jogar p lateral*/
+    margin: 200px;
+}

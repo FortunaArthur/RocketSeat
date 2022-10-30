@@ -1,0 +1,22 @@
+* { margin: 0;}
+
+div, section {
+/*se vc n declarar altura e largura, ela vai pegar td largura disponivel e a altura é do conteudo*/
+    border: 1px solid green;
+    width: 100px;
+    height: 100px;
+/*resetando
+    display: inline;
+inline não tem margin collapsing, eles somam
+    margin: 0 4px;*/
+    margin: auto;
+}
+
+/* vão se juntar para dar o msm resultado de 16px, margin collapsing
+div {
+    margin-bottom: 16px;
+}
+section {
+    margin-top: 16px;
+}
+*/

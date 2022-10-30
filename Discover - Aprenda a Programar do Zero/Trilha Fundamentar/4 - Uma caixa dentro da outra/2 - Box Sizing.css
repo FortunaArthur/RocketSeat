@@ -1,0 +1,13 @@
+/*box-sizing é o responsável pelo calculo do tamanho total da caixa (box).*/
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin: 10%;
+/*O tamho total da caixa será calculado pelo: content-box | bordeer-box*/
+    padding: 0 20px;/*aki ele está somando +20px nas laterais*/
+
+/*agr fazer o calculo para que o 100px de largura sejam verdadeiros*/
+    box-sizing: border-box;
+
+}

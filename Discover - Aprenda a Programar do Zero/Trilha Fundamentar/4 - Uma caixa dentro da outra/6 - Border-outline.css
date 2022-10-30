@@ -1,0 +1,37 @@
+/*div {
+	shorthand 
+	border-top: solid 2px; /* top | right | bottom | left
+
+	style
+	border: solid;
+
+	width <length> | style
+	border: 2px dotted;
+
+	style | color
+	border: outset #f33;
+
+	width | style | color
+	border: medium dashed green;
+
+}*/
+
+* {margin: 0;}
+
+div, section {
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+/*aki ela vai somar +10px e vai passar de 100*/
+    border: 10px solid red;
+
+/*aki o calculo para q 100px seja verdadeiro*/
+    box-sizing: border-box;
+
+/*aki mexendo nas bordas*/
+    border-top: double green 10px;
+    border-bottom: none;
+
+/*Outline*/
+    outline: yellow 20px solid;
+}
