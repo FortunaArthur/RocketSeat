@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    border: 10px dashed red;
+    background-color: rgb(55, 100, 50);
+    background-image: url(https://th.bing.com/th/id/OIP.MyjF3PV3ZcaKQFimiiv_xAHaE7?pid=ImgDet&rs=1) ;
+    background-repeat: round;
+    background-position: center left;
+    background-size: contain;
+}
+
+/*
+Para mudar o tamanho da imagem do background usamos a propriedade background-size.
+Values
+background-size: cover;
+background-size: contain;
+
+Podemos usar 2 valores, o primeiro é para a largura da imagem e o segundo é para a altura
+background-size: 40% auto;
+background-size: 2em 25%;
+background-size: auto 8px;
+background-size: auto auto;*/

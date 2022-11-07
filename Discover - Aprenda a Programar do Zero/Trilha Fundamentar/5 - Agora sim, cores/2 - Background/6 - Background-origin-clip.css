@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    border: 10px dashed red;
+    padding: 20px;
+    background-color: rgb(55, 100, 50);
+    background-image: url(https://th.bing.com/th/id/OIP.MyjF3PV3ZcaKQFimiiv_xAHaE7?pid=ImgDet&rs=1) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-origin: content-box ;
+    background-clip: content-box ;
+}
+
+/*
+A propriedade background-origin é quem define o ponto de origem de uma imagem específica.
+Principais valores
+background-origin: border-box;
+background-origin: padding-box;
+background-origin: content-box;
+
+O background-clip define se a cor ou imagem do background iniciam debaixo de sua área de borda, preenchimento ou conteúdo.
+Principais valores
+background-clip: border-box;
+background-clip: padding-box;
+background-clip: content-box;
+background-clip: text;*/

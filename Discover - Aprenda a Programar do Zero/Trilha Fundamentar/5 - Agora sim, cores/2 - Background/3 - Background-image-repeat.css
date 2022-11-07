@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    border: 10px dashed red;
+    background-color: rgb(55, 100, 50);
+    background-image: url(https://th.bing.com/th/id/OIP.MyjF3PV3ZcaKQFimiiv_xAHaE7?pid=ImgDet&rs=1) ;
+    background-repeat: round;
+}
+
+/* Valores 
+background-repeat: repeat-x;
+background-repeat: repeat-y;
+background-repeat: repeat;
+background-repeat: space;
+background-repeat: round;
+background-repeat: no-repeat;
+
+Podedmos usar 2 valores: horizontal | vertical
+background-repeat: repeat space;
+background-repeat: repeat repeat;
+background-repeat: round space;
+background-repeat: no-repeat round;*/

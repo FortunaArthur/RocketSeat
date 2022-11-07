@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+}
+
+/*
+header {
+    height: 100px;
+    border: 10px dashed red;
+    padding: 20px }*/
+
+main {
+    color: white;
+    background:  rgb(55, 100, 50) 
+    url(https://th.bing.com/th/id/OIP.MyjF3PV3ZcaKQFimiiv_xAHaE7?pid=ImgDet&rs=1) 
+    no-repeat center top / 100% content-box content-box fixed;
+/* 
+    background: linear-gradient(270deg, red, yellow, blue);
+
+    background: radial-gradient(green, red, yellow) */
+
+    background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 0, 0, 0.2))
+
+} 
+
+/*
+linear-gradient() é a função usada para criar gradient linear com o CSS.
+background: linear-gradient(45deg, red, yellow)
+
+radial-gradient() é a função usada para criar gradient circular.
+background: radial-gradient(green, red, yellow)
+background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 0, 0, 0.2))
+*/

@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    border: 10px dashed red;
+    background-color: rgb(55, 100, 50);
+}

@@ -1,0 +1,9 @@
+/*aki a cor não vai mudar, ja q ela vai fica rna cor padrão do texto, a cor que ja está no html*/
+h1 {
+    color: currentColor;
+}
+
+/*Agora, quando aplicar o h1 dentro da div, ela vai mudar para cor azul*/
+div {
+    color: blue;
+}

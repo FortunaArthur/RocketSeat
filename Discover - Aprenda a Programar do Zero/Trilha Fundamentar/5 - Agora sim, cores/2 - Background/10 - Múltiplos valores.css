@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+
+/*
+header {
+    height: 100px;
+    border: 10px dashed red;
+    padding: 20px }*/
+
+main {
+    color:darkblue ;
+
+    background-color: rgb(55, 100, 50);
+    background-image: url(https://th.bing.com/th/id/OIP.MyjF3PV3ZcaKQFimiiv_xAHaE7?pid=ImgDet&rs=1) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-origin: content-box ;
+    background-clip: content-box ;
+    background-attachment: fixed ;
+
+    background:  linear-gradient(270deg, red, yellow, blue), 
+    url(https://th.bing.com/th/id/OIP.MyjF3PV3ZcaKQFimiiv_xAHaE7?pid=ImgDet&rs=1) 
+    no-repeat right top / 100% border-box content-box fixed;
+/* 
+    background: linear-gradient(270deg, red, yellow, blue);
+
+    background: radial-gradient(green, red, yellow) */
+
+    /* background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 0, 0, 0.2)) */
+
+} 
+
+/*
+Podemos aplicar múltiplos backgrounds em um mesmo elemento, podendo ter cor sólida, gradiente ou imagem. Para isso basta separar por vírgula cada background.
+*/

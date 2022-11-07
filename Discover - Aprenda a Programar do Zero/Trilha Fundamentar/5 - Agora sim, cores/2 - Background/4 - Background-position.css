@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    border: 10px dashed red;
+    background-color: rgb(55, 100, 50);
+    background-image: url(https://th.bing.com/th/id/OIP.MyjF3PV3ZcaKQFimiiv_xAHaE7?pid=ImgDet&rs=1) ;
+    background-repeat: round;
+    background-position: center left;
+}
+
+/* 
+Com a propriedade background-position podemos mudar a posição da imagem do background.
+Pricipais valores
+background-position: top;
+background-position: bottom;
+background-position: left;
+background-position: right;
+background-position: center;*/

@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+}
+
+/*
+header {
+    height: 100px;
+    border: 10px dashed red;
+    padding: 20px }*/
+
+main {
+    color: white;
+    background:  rgb(55, 100, 50) 
+    url(https://th.bing.com/th/id/OIP.MyjF3PV3ZcaKQFimiiv_xAHaE7?pid=ImgDet&rs=1) 
+    no-repeat center top / 100% content-box content-box fixed;
+} 
+
+/*Podemos usar o shorthand background para definir todos os valores do background*/
