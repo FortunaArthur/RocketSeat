@@ -1,2 +1,2 @@
 # Tudo que eu pegar da RocektSeat vai pra esse repositorio
-<img src="[https://davithiago.com.br/wp-content/uploads/2018/12/post-udemy-cursos-gratis.jpg](https://th.bing.com/th/id/OIP.3-h9eSN42UJFO4Hzw7FIwgHaD0?pid=ImgDet&rs=1)https://th.bing.com/th/id/OIP.3-h9eSN42UJFO4Hzw7FIwgHaD0?pid=ImgDet&rs=1">
+<img src="https://miro.medium.com/v2/resize:fit:1200/1*fs0ScMc45X9QEwno8G414A.png">
