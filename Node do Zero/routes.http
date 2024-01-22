@@ -1,0 +1,7 @@
+POST http://localhost:3333/videos
+# dizer o tipo de conteudo que vc está mandando
+Content-Type: application/json
+
+{
+    "titulo": "Video 01"
+}
