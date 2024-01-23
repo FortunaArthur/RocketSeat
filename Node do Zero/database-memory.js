@@ -10,7 +10,9 @@ export class DataBaseMemory {
     };
 
     list(){
-        this.#videos.values()
+        // eu tinha esquecido de coloca ro return
+        // tem q converter pra 1 arrey, ta voltando map iterator
+        return Array.from(this.#videos.values())
     };
 
     update(id, video){

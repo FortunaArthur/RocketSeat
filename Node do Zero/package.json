@@ -1,7 +1,6 @@
 {
-  "name": "node-do-zero",
+  "name": "do-zero",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "type": "module",
   "scripts": {
@@ -13,5 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "fastify": "^4.25.2"
-  }
+  },
+  "description": ""
 }

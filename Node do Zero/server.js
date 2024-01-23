@@ -27,23 +27,23 @@ const database = new DataBaseMemory;
 // fazer crud basico (get, post, put, delete)
 
 sever.post("/videos", (request, reply) => {
-    const body = request.body;
-    
-    console.log(body);
-
-    database.create({
-        titulo: "Video 01",
-        info: "É o primeiro video",
-        tempo: 180
-    });
+    // min 39 ele explica a desestruturação
+    const {titulo, info, tempo} = request.body;
+    // como o nome da chave é igaul do valor, afz assim, short sintaxy
+    database.create({titulo, info, tempo});
 
     console.log(database.list());
-
     return reply.status(201).send();
 })
 
+// como é pra pegar direto, sem mudar estatus nem nd
+// só usar 1 return q vai
 sever.get("/videos", () => {
-    return "RocketSeat"
+    const videos = database.list();
+
+    console.log(videos);
+
+    return videos
 })
 
 sever.delete("/videos/:id", () => {

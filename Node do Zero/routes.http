@@ -3,5 +3,13 @@ POST http://localhost:3333/videos
 Content-Type: application/json
 
 {
-    "titulo": "Video 01"
+    "titulo": "Video 01",
+    "info": "Esse é o Primeiro Video",
+    "tempo": 180
 }
+
+# os 3 jogo da velha, ta separando as requests
+
+###
+
+GET http://localhost:3333/videos
