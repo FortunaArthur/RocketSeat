@@ -34,7 +34,7 @@ sever.post("/videos", (request, reply) => {
 
     console.log(database.list());
     return reply.status(201).send();
-})
+});
 
 // como é pra pegar direto, sem mudar estatus nem nd
 // só usar 1 return q vai
@@ -44,16 +44,26 @@ sever.get("/videos", () => {
     console.log(videos);
 
     return videos
-})
+});
 
-sever.delete("/videos/:id", () => {
-    return "RocketSeat"
-})
+sever.put("/videos/:id", (request, reply) => {
+    const videoId = request.params.id
 
-sever.put("/videos/:id", () => {
-    return "RocketSeat"
-})
+    const {titulo, info, tempo} = request.body;
+
+    database.update(videoId, {titulo, info, tempo});
+
+    return reply.status(204).send();
+});
+
+sever.delete("/videos/:id", (request, reply) => {
+    const videoId = request.params.id;
+
+    database.delete(videoId);
+
+    return reply.status(204).send();
+});
 
 sever.listen({
     port:3333,
-})
+});

@@ -12,7 +12,15 @@ export class DataBaseMemory {
     list(){
         // eu tinha esquecido de coloca ro return
         // tem q converter pra 1 arrey, ta voltando map iterator
-        return Array.from(this.#videos.values())
+        return Array.from(this.#videos.entries()).map((videoArray) =>{
+        // usa o entries, que vai retornar varios arrays e pega o id tb
+            const id = videoArray[0];
+            const data = videoArray[1];
+        // separar os arrays entre o ID e o resto dos dados
+
+            return {id, ...data}
+        // isso aki vai ajuda rna formatação
+        });
     };
 
     update(id, video){
