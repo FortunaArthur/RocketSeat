@@ -9,7 +9,7 @@ export class DataBaseMemory {
         this.#videos.set(videoId, video)
     };
 
-    list(){
+    list(search){
         // eu tinha esquecido de coloca ro return
         // tem q converter pra 1 arrey, ta voltando map iterator
         return Array.from(this.#videos.entries()).map((videoArray) =>{
@@ -20,6 +20,12 @@ export class DataBaseMemory {
 
             return {id, ...data}
         // isso aki vai ajuda rna formatação
+        // add parametro de busca
+        }).filter(video => {
+            if (search){
+                return video.title.includes(search)}
+                
+            return true
         });
     };
 

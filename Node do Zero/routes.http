@@ -3,7 +3,7 @@ POST http://localhost:3333/videos
 Content-Type: application/json
 
 {
-    "titulo": "Video 01",
+    "titulo": "video node",
     "info": "Esse é o Primeiro Video",
     "tempo": 180
 }
@@ -12,12 +12,12 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3333/videos
+GET http://localhost:3333/videos?search=node
 
 ###
 
 # Lembra q aki vc tem q colocar o ID que vc quer q mude
-PUT http://localhost:3333/videos/
+PUT http://localhost:3333/videos
 # dizer o tipo de conteudo que vc está mandando
 Content-Type: application/json
 
@@ -29,4 +29,4 @@ Content-Type: application/json
 
 ###
 # aki é a msm coisa, coloca o id q vc quer deletar
-DELETE  http://localhost:3333/videos/
+DELETE  http://localhost:3333/videos

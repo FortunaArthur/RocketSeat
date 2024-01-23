@@ -38,10 +38,10 @@ sever.post("/videos", (request, reply) => {
 
 // como é pra pegar direto, sem mudar estatus nem nd
 // só usar 1 return q vai
-sever.get("/videos", () => {
-    const videos = database.list();
+sever.get("/videos", (request) => {
+    const search = request.query.search;
 
-    console.log(videos);
+    const videos = database.list();
 
     return videos
 });
