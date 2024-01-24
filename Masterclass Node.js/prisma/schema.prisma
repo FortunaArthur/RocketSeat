@@ -1,6 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -8,4 +5,26 @@ generator client {
 datasource db {
   provider = "sqlite"
   url      = env("DATABASE_URL")
+}
+
+// aki vc controi sua tabela usando MODEL
+model Usuario {
+  id        String @id @default(uuid())
+  gitID     Int    @unique
+  nome      String
+  loginGIT  String
+  avatarGIT String
+
+  memorias Memoria[]
+}
+
+model Memoria {
+  id         String   @id @default(uuid())
+  imgURL     String
+  conteudo   String
+  isPublic   Boolean  @default(false)
+  memoryDATA DateTime @default(now())
+
+  usuarios   Usuario @relation(fields: [usuariosId], references: [id])
+  usuariosId String
 }

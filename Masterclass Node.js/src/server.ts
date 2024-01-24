@@ -1,19 +1,11 @@
 import fastify from "fastify";
+import {PrismaClient} from "@prisma/client";
+import { rotasMemorias } from "./Rotas/memorias";
 
+// conectando com freamwork
 const app = fastify();
 
-// rotas
-app.get('/hello', () => {
-    return "OLÁ MUNDO"
-});
-
-
-
-
-
-
-
-
+app.register(rotasMemorias)
 
 // rodar o sever em um porta local
 // o then permite vc ouvir quando a porta tiver no ar
